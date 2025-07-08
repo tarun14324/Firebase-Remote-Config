@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.firebaseremoteconfig.ui.theme.FirebaseRemoteConfigTheme
 
@@ -40,7 +41,7 @@ fun FeatureToggleScreen(modifier:Modifier) {
         }
     }
 
-   Column(verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize()) {
+   Column(verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
        if (isEnabled) {
            Text("🎉 Feature is enabled!")
        } else {
