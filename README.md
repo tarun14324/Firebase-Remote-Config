@@ -45,3 +45,10 @@ LinkedIn: https://www.linkedin.com/in/tarun-lanka/
 
 ```gradle
 classpath 'com.google.gms:google-services:4.4.1'
+
+### App-level `build.gradle`:
+
+-Dependecies
+  implementation platform('com.google.firebase:firebase-bom:32.7.2')
+  implementation 'com.google.firebase:firebase-config-ktx'
+
