@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1060295607494",
+    "project_id": "fir-remote-config-168ec",
+    "storage_bucket": "fir-remote-config-168ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060295607494:android:627a5eca5e0098ff1203c7",
+        "android_client_info": {
+          "package_name": "com.example.firebaseremoteconfig"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnFnNcNpfjghNTwfkHRVMnOVAYi6uOFcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
